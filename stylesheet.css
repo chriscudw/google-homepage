@@ -1,0 +1,106 @@
+body{
+	margin:0;
+	font-family: Arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+#signin:hover {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Header */
+#header {
+	text-align: right;
+	margin-right: 15px;
+
+}
+
+li {
+	display:inline-block;
+	list-style-type: none;
+	padding: 5px;
+}
+
+#header img {
+	vertical-align: middle;
+}
+
+#signin {
+	padding: 9px 18px;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+
+/* Main content*/
+#main {
+	text-align: center;
+}
+
+#logo {
+	height: 110px;
+	padding-top: 130px;
+}
+
+/* Search box */
+#searchbox {
+	width: 510px;
+	height: 25px;
+	margin-top: 15px;
+}
+
+/* Buttons */
+.button {
+	padding: 6px;
+	margin: 12px;
+	background-color: yellow;
+	font-size: 15px;
+	color: purple;
+	border-radius: 5px;
+}
+
+/* Footer */
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	background-color: #efefef;
+	width:100%;
+	clear: both;
+
+	
+}
+
+.left {
+	float: left;
+}
+.left li {
+	margin-left: -20px;
+}
+
+.right {
+	float: right;
+}
+
+#footer ul {
+	margin: 9px;
+}
+
+#footer li {
+	padding-right: 15px;
+
+
+}
